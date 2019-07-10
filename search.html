@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Search | Kakao Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar_column">
+        <span class="status-bar_clock">23:57</span>
+      </div>
+      <div class="status-bar_column">
+        <i class="far fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar_battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header_header-column">
+        <h1 class="header_title">Search</h1>
+      </div>
+      <div class="header_header-column">
+        <span class="header_icon">
+          <i class="far fa-comment"></i>
+        </span>
+        <span class="header_icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
+    <main class="search">
+      <header class="search_header">
+        <ul class="search_header-list">
+          <li class="search_header-btn header-btn">
+            <span class="header-btn_icon">
+              <i class="fas fa-qrcode fa-2x"></i>
+            </span>
+            <span class="header-btn_title">QRcode</span>
+          </li>
+          <li class="search_header-btn header-btn">
+            <span class="header-btn_icon">
+              <i class="fas fa-user-plus fa-2x"></i>
+            </span>
+            <span class="header-btn_title">Add by contacts</span>
+          </li>
+          <li class="search_header-btn header-btn">
+            <span class="header-btn_icon">
+              <i class="fas fa-passport fa-2x"></i>
+            </span>
+            <span class="header-btn_title">Add by id</span>
+          </li>
+          <li class="search_header-btn header-btn">
+            <span class="header-btn_icon">
+              <i class="far fa-envelope fa-2x"></i>
+            </span>
+            <span class="header-btn_title">Invite</span>
+          </li>
+        </ul>
+      </header>
+      <ul class="search_recommended">
+        <h5 class="search_title">
+          Recommended Friends
+        </h5>
+        <li class="search_friend friend friend--large">
+          <div class="friend_column">
+            <img
+              src="images/profile_image.jpg"
+              class="g-avatar friend_avatar"
+            />
+            <div class="friend_content">
+              <span class="friend_name">
+                Sulla
+              </span>
+            </div>
+          </div>
+          <div class="friend_column">
+            <div class="friend_add-btn">
+              <i class="fas fa-user-plus"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav_list">
+        <li class="nav_list-item">
+          <a href="friends.html" class="nav_list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav_list-item">
+          <a href="chats.html" class="nav_list-link">
+            <i class="far fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav_list-item">
+          <a href="search.html" class="nav_list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav_list-item">
+          <a href="more.html" class="nav_list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
