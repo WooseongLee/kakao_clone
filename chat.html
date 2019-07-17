@@ -12,35 +12,38 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body class="chats-body">
-    <div class="status-bar">
-      <div class="status-bar_column">
-        <span class="status-bar_clock">23:57</span>
+    <div class="header-wrapper">
+      <div class="status-bar">
+        <div class="status-bar_column">
+          <span class="status-bar_clock">23:57</span>
+        </div>
+        <div class="status-bar_column">
+          <i class="far fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar_battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
       </div>
-      <div class="status-bar_column">
-        <i class="far fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar_battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
-      </div>
+      <header class="header">
+        <div class="header_header-column">
+          <a href="chats.html" class="header_back-btn">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+          <h1 class="header_title">Onion</h1>
+        </div>
+        <div class="header_header-column">
+          <span class="header_icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header_icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </div>
+      </header>
     </div>
-    <header class="header">
-      <div class="header_header-column">
-        <a href="chats.html" class="header_back-btn">
-          <i class="fas fa-arrow-left"></i>
-        </a>
-        <h1 class="header_title">Onion</h1>
-      </div>
-      <div class="header_header-column">
-        <span class="header_icon">
-          <i class="fas fa-search"></i>
-        </span>
-        <span class="header_icon">
-          <i class="fas fa-bars"></i>
-        </span>
-      </div>
-    </header>
-    <main class="chat">
+
+    <main class="chat-screen">
       <ul class="chat_messages">
         <span class="chat_timestamp">Friday, January 11, 2019</span>
         <li class="incoming-message message">
@@ -53,7 +56,25 @@
           </div>
           <span class="message_timestamp"></span>
         </li>
+        <li class="sent-message message">
+          <span class="message_timestamp"></span>
+          <div class="message_content">
+            <div class="message_bubble">
+              Thank you!
+            </div>
+          </div>
+        </li>
         <li class="incoming-message message">
+          <img src="images/profile_image.jpg" class="g-avatar message_avatar" />
+          <div class="message_content">
+            <span class="message_auther">Onion</span>
+            <div class="message_bubble">
+              Congratulation!
+            </div>
+          </div>
+          <span class="message_timestamp"></span>
+        </li>
+        <li class="sent-message message">
           <span class="message_timestamp"></span>
           <div class="message_content">
             <div class="message_bubble">
