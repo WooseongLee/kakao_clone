@@ -1,0 +1,35 @@
+.search {
+  margin-top: 40px;
+}
+
+.search .search_header-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.search .search_header-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search .header-btn_title {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.search .header-btn_icon {
+  font-size: 12px;
+}
+
+.search .search_recommended {
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #f7f7f7;
+}
+
+.search .search_title {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
